@@ -1,0 +1,28 @@
+---
+description: 启动或恢复 Agentic Governance SDD 工作流。
+agent: sdd-coordinator
+---
+
+读取 `.sdd/CURSOR.md`、`.sdd/TASKS.md`、`.sdd/REVIEWS.md` 和 `.sdd/CHECKLIST.md`。
+
+判断项目应从以下哪个阶段恢复：
+
+- specify
+- draft
+- review
+- rfc
+- sprint-schedule
+- execution
+- review-loop
+- delivery-sync
+- sprint-close
+
+然后告知用户：
+
+1. 当前状态
+2. 推荐的下一步动作
+3. 缺失文件或不一致项
+4. 接下来将使用哪个子 agent
+
+
+OpenCode 说明：该文件位于 `.opencode/commands/`，文件名即 slash command 名称。

@@ -1,0 +1,38 @@
+{
+  "name": "agentic-governance-sdd-workflow-opencode",
+  "version": "1.0.0",
+  "converted_from": "agentic-governance-sdd-workflow(1).zip",
+  "target": "OpenCode",
+  "created_at": "2026-05-17T02:45:54",
+  "entrypoints": [
+    "/sdd-start",
+    "/sdd-specify",
+    "/sdd-draft",
+    "/sdd-review",
+    "/sdd-rfc",
+    "/sdd-run-sprint",
+    "/sdd-sync-state",
+    "/sdd-close-sprint"
+  ],
+  "agents": [
+    "sdd-architecture-reviewer",
+    "sdd-code-reviewer",
+    "sdd-coordinator",
+    "sdd-delivery",
+    "sdd-draft",
+    "sdd-implementer",
+    "sdd-requirement",
+    "sdd-scheduler",
+    "sdd-security-reviewer"
+  ],
+  "commands": [
+    "sdd-close-sprint",
+    "sdd-draft",
+    "sdd-review",
+    "sdd-rfc",
+    "sdd-run-sprint",
+    "sdd-specify",
+    "sdd-start",
+    "sdd-sync-state"
+  ]
+}

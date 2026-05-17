@@ -1,0 +1,29 @@
+{
+  "platform": "codex",
+  "agents_dir": ".codex/agents",
+  "config": ".codex/config.toml",
+  "skills_dir": ".agents/skills",
+  "state_dir": ".sdd",
+  "agents": [
+    "sdd_architecture_reviewer",
+    "sdd_code_reviewer",
+    "sdd_coordinator",
+    "sdd_delivery",
+    "sdd_draft",
+    "sdd_implementer",
+    "sdd_requirement",
+    "sdd_scheduler",
+    "sdd_security_reviewer"
+  ],
+  "skills": [
+    "sdd-governance",
+    "sdd-close-sprint",
+    "sdd-draft",
+    "sdd-review",
+    "sdd-rfc",
+    "sdd-run-sprint",
+    "sdd-specify",
+    "sdd-start",
+    "sdd-sync-state"
+  ]
+}

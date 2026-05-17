@@ -1,0 +1,30 @@
+{
+  "platform": "claude-code",
+  "memory": "CLAUDE.md",
+  "agents_dir": ".claude/agents",
+  "skills_dir": ".claude/skills",
+  "settings": ".claude/settings.json",
+  "state_dir": ".sdd",
+  "agents": [
+    "sdd-architecture-reviewer",
+    "sdd-code-reviewer",
+    "sdd-coordinator",
+    "sdd-delivery",
+    "sdd-draft",
+    "sdd-implementer",
+    "sdd-requirement",
+    "sdd-scheduler",
+    "sdd-security-reviewer"
+  ],
+  "skills": [
+    "sdd-governance",
+    "sdd-close-sprint",
+    "sdd-draft",
+    "sdd-review",
+    "sdd-rfc",
+    "sdd-run-sprint",
+    "sdd-specify",
+    "sdd-start",
+    "sdd-sync-state"
+  ]
+}

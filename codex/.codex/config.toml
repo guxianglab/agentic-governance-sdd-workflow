@@ -1,0 +1,11 @@
+# Agentic Governance SDD Workflow — Codex project config
+# Project-scoped .codex config is loaded only after the repository is trusted.
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 1800
+
+# Keep default runtime behavior conservative. Override locally if needed.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
